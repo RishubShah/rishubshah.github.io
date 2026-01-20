@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rishub Shah | Robotics & Mechatronics</title>
+  <meta name="description" content="Rishub Shah – Mechanical Engineering student at UT Austin focused on robotics, mechatronics, and automation." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="container">
+    <div class="top">
+      <div>
+        <h1>Rishub Shah</h1>
+        <p class="subtitle">Mechanical Engineering @ UT Austin • Robotics & Mechatronics</p>
+      </div>
+      <div class="links">
+        <a href="mailto:rishubtshah@gmail.com">rishubtshah@gmail.com</a>
+        <a href="https://www.linkedin.com/in/rishub-shah" target="_blank" rel="noreferrer">LinkedIn</a>
+        <!-- Add GitHub link if you want: -->
+        <!-- <a href="https://github.com/rishubshah" target="_blank" rel="noreferrer">GitHub</a> -->
+      </div>
+    </div>
+
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        Mechanical Engineering student at The University of Texas at Austin focusing on robotics and mechatronics.
+        I build hands-on automation projects involving sensors, actuators, basic feedback control, and CAD-based design.
+        I’m looking for applied engineering internships in robotics, automation, and connected devices.
+      </p>
+    </section>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <div class="project-header">
+          <div>
+            <h3>Automated Pick-and-Place Robotic Arm</h3>
+            <p class="meta">Spring 2025</p>
+          </div>
+          <div class="tags">
+            <span>SolidWorks</span><span>Arduino</span><span>Sensors</span><span>Servos</span><span>3D Printing</span>
+          </div>
+        </div>
+        <p class="desc">
+          Built a small-scale pick-and-place robot to detect parts and execute repeatable motion cycles.
+        </p>
+        <ul>
+          <li>Built a 4-DOF robotic arm with a rotating base and four-bar linkage for repeatable pick-and-place motion.</li>
+          <li>Integrated IR and ultrasonic sensors to detect parts and trigger automated motion.</li>
+          <li>Modeled linkage motion, reach, and workspace constraints in SolidWorks prior to fabrication.</li>
+          <li>Implemented servo-based actuation and planned fabrication using 3D-printed components.</li>
+        </ul>
+        <div class="media">
+          <!-- Replace these with your real image filenames -->
+          <img src="assets/images/pickplace-1.jpg" alt="Pick-and-place robot (photo or CAD)" />
+          <img src="assets/images/pickplace-2.jpg" alt="Pick-and-place robot (photo or CAD)" />
+        </div>
+        <!-- Optional links -->
+        <!-- <p class="project-links"><a href="https://github.com/..." target="_blank" rel="noreferrer">Code</a> • <a href="https://..." target="_blank" rel="noreferrer">Video</a></p> -->
+      </article>
+
+      <article class="project">
+        <div class="project-header">
+          <div>
+            <h3>Autonomous Dual-Axis Solar Tracking Robot</h3>
+            <p class="meta">Fall 2024</p>
+          </div>
+          <div class="tags">
+            <span>Arduino</span><span>Servos</span><span>Photoresistors</span><span>SolidWorks</span><span>3D Printing</span>
+          </div>
+        </div>
+        <p class="desc">
+          Designed and built a dual-axis solar tracker that adjusts orientation using sensor input.
+        </p>
+        <ul>
+          <li>Built a dual-axis tracker using photoresistors, servomotors, and an Arduino controller.</li>
+          <li>Wrote control logic to adjust panel orientation based on sensor readings.</li>
+          <li>Designed and fabricated the structure using SolidWorks and 3D printing.</li>
+          <li>Demonstrated improved light capture compared to a fixed-orientation setup.</li>
+        </ul>
+        <div class="media">
+          <img src="assets/images/solar-1.jpg" alt="Solar tracker (photo or CAD)" />
+          <img src="assets/images/solar-2.jpg" alt="Solar tracker (photo or CAD)" />
+        </div>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Experience</h2>
+      <div class="experience">
+        <div class="exp-header">
+          <h3>Change Control Intern — Otsuka America Pharmaceutical, Inc.</h3>
+          <p class="meta">Summer 2025</p>
+        </div>
+        <ul>
+          <li>Assisted with design/prototyping updates to desiccator enclosures used with ingestible sensor devices.</li>
+          <li>Created and modified CAD models in SolidWorks to improve manufacturability and ease of assembly.</li>
+          <li>Supported verification testing and documentation in a GMP-regulated environment.</li>
+          <li>Gained exposure to engineering work in safety- and quality-critical settings.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><strong>Software:</strong> SolidWorks, MATLAB, Python, R, Arduino, ROS (basic)</div>
+        <div><strong>Hardware:</strong> Sensors, servos, microcontrollers, 3D printing, breadboards, soldering</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> Rishub Shah</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
