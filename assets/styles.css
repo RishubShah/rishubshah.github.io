@@ -84,12 +84,14 @@ li{margin:6px 0}
 }
 .media img{
   width:100%;
-  height: 220px;
-  object-fit: cover;
+  height: auto;              /* let height adjust naturally */
+  max-height: 420px;         /* optional: prevents giant images */
+  object-fit: contain;       /* show full image, no cropping */
   border-radius: 12px;
   border: 1px solid var(--line);
-  background: #0a0f16;
+  background: #0a0f16;       /* makes letterboxing look clean */
 }
+
 
 .footer{
   margin-top: 18px;
